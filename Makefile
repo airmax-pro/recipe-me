@@ -3,6 +3,9 @@ all: bedrock-update bind-bedrock theme-update bind-theme
 #Update .lock files for future deployment
 lock-composers: bedrock-lock theme-lock
 
+update-sub:
+	git submodule update --remote
+
 bind-bedrock:
 	@rm htdocs || true
 	@ln -s recipe-me-bedrock/web htdocs
