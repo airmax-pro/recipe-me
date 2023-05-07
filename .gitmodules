@@ -1,0 +1,6 @@
+[submodule "recipe-me-bedrock"]
+	path = recipe-me-bedrock
+	url = git@github.com:airmax-pro/recipe-me-bedrock.git
+[submodule "recipe-me-sage"]
+	path = recipe-me-sage
+	url = git@github.com:airmax-pro/recipe-me-sage.git
