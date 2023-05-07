@@ -24,5 +24,3 @@ bedrock-lock:
 
 theme-lock:
 	cd recipe-me-sage/ && composer update --no-install
-	cd recipe-me-sage/ && yarn
-	cd recipe-me-sage/ && yarn build
